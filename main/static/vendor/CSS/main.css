@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: gray !important;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.2s ease-in;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 255, 0.5) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/menu-512.png') !important;
+}
+
+.home-samall-news {
+    height: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    border: none !important;
+}
+
+.card {
+    transition: all 0.4s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    border: none !important;
+}
+.card:hover {
+    box-shadow: none !important;
+}
+
+.home-samall-news:hover {
+    box-shadow: none !important;
+}
+
+.card-body {
+    padding: 10px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between !important;
+}
+
+
+.btn-primary {
+    position: relative;
+    background-color: transparent !important;
+    color: #007BFF;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    color: gray !important;
+    padding-right: 10px;
+}
+
+.btn-primary::after {
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: '>>';
+}
+
+.card-img {
+    object-fit: cover !important;
+    overflow: hidden !important;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #2A2A2A !important;
+}
+
+.card-title {
+    
+}
